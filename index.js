@@ -1,7 +1,7 @@
-const a = [[1,2], [3,4]];
+const a = [[2,4], [6,8]];
 
 // Создаем rank-2 тензор
-const b = tf.tensor([[1,2], [3,4]]);
+const b = tf.tensor(a);
 console.log('shape:', b.shape);
 b.print()
 
